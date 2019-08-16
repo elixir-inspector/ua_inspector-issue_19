@@ -26,6 +26,7 @@ defmodule IssueInspector.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
+      {:initializer, path: "../../../initializer"},
       {:ua_inspector, "~> 1.0"}
     ]
   end
